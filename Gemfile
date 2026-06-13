@@ -21,7 +21,7 @@ gem "tzinfo-data", platforms: %i[windows jruby]
 gem "vite_rails", "~> 3.0"
 
 group :development, :test do
-   gem "amazing_print"
+  gem "amazing_print"
   gem "brakeman", require: false
   gem "bundler-audit", require: false
   gem "debug", platforms: %i[mri windows], require: "debug/prelude"
